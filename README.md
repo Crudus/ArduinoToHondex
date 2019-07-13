@@ -30,3 +30,7 @@ PwrOn() - <i>Power the unit on<br></i>
 PwrOff() - <i>Power the unit off (standby)<br></i>
 WakeTog() - <i>Toggle wake on/off<br></i>
 
+Note:
+
+**When setting up your code, make sure to use PinMode(Pin, OUTPUT);
+The default Pin is set to 10, you can change it by including a line at the beginning of your code. Ex. int Pin = 9;**
